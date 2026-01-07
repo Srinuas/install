@@ -12,8 +12,3 @@ sudo chmod 777 /var/lib/trivy
 export TRIVY_CACHE_DIR=/var/lib/trivy
 
 echo "Cache directory set to: /var/lib/trivy"
-
-# Run trivy scan
-trivy image apimage
-
-echo "Scan completed!"
