@@ -11,3 +11,4 @@ sudo yum install docker -y
 sudo systemctl start docker
 sudo systemctl status Jenkins
 sudo systemctl status docker
+cat /var/lib/jenkins/secrets/initialAdminPassword
