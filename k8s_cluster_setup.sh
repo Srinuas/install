@@ -14,3 +14,12 @@ kops update cluster --name srinu.k8s.local --yes --admin
  #* edit your control-plane instance group: kops edit ig --name=srinu.k8s.local control-plane-us-east-2a
 
 #Finally configure your cluster with: kops update cluster --name srinu.k8s.local --yes --admin
+
+#Cluster is starting.  It should be ready in a few minutes.
+
+#Suggestions:
+ #* validate cluster: kops validate cluster --wait 10m
+ #* list nodes: kubectl get nodes --show-labels
+ #* ssh to a control-plane node: ssh -i ~/.ssh/id_rsa ubuntu@
+ #* the ubuntu user is specific to Ubuntu. If not using Ubuntu please use the appropriate user based on your OS.
+ #* read about installing addons at: https://kops.sigs.k8s.io/addons.
