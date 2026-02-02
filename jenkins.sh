@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# https://www.jenkins.io/doc/book/installing/linux/#red-hat-centos
 # స్క్రిప్ట్ రన్ అవుతున్నప్పుడు ఏమైనా ఎర్రర్ వస్తే వెంటనే ఆగిపోవాలి
 set -e
 
