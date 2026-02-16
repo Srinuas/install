@@ -1,0 +1,7 @@
+Pipeline: Stage View
+SonarQube Scanner
+Nexus Artifact Uploader
+Docker Pipeline
+Email Extension Template
+Kubernetes
+Kubernetes CLI
